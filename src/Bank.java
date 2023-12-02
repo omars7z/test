@@ -4,6 +4,8 @@ public class Bank {
     private double balance;
     private static int count = 0;
 
+    private String version = "1.0.0";
+
     // 3. Constructors
     public Bank(String ownerName){
         this.ownerName = ownerName;
