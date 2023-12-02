@@ -43,3 +43,19 @@ public class Bank {
         return count;
     }
 }
+
+
+/*1. Create a new Java project:
+bash
+mkdir BankProject
+cd BankProject
+
+2.Initialize Git and create branches:
+git init
+git checkout -b develop
+touch README.md  # Create a placeholder file
+git add .
+git commit -m "Initialize project"
+git branch -m main
+
+ */
