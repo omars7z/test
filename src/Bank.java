@@ -24,7 +24,11 @@ public class Bank {
     }
 
     public void withdraw(double amount){
-        balance -= amount;
+        if (amount <= balance && amount > 0) {
+            balance -= amount;
+        } else {
+            System.out.println("Invalid withdrawal amount");
+        }
     }
 
     String getOwnerName(){

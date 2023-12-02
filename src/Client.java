@@ -12,7 +12,8 @@ public class Client {
 //        b1.balance += 500;
         b1.deposit(200);
 
-        b3.withdraw(100);
+        //Fixed withdraw because client had no intial amount
+//        b3.withdraw(100);
 
         b4.deposit(200);
 
